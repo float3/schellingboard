@@ -11,6 +11,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+
+- **Hosting on NixOS**: the repository now carries a NixOS module that runs SchellingBoard as a
+  system service, with its data in one directory and its passwords kept out of the world-readable
+  store.
+
 ## [5.0.0] - 2026-11-11
 
 > **Breaking change**: behind a reverse proxy, set `SB_TRUSTED_PROXIES` (usually `1`) when
