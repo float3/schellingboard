@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+- **Hosting on NixOS**: the repository now carries a NixOS module that runs
+  SchellingBoard as a system service, with its data in one directory and its
+  passwords kept out of the world-readable store.
+
 - **An API for scripts and integrations** (#677): organizers can set up events, days,
   rooms, guests and sessions from a script over a documented, versioned API. Its
   interactive reference is at `/api/v1/docs`. An edit from an outdated copy of a

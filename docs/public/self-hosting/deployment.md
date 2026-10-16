@@ -31,6 +31,9 @@ docker compose up -d
 `docker compose` automatically reads a `.env` file in the same directory as
 `docker-compose.yml`, so you don't need to pass variables on the command line.
 
+On NixOS, [the flake's module](nixos.md) runs the same container as a system
+service.
+
 See [Configuration](configuration.md) for every environment variable, including
 how to set up email, and [Backup and restore](backup.md) for keeping a copy of
 your data.
