@@ -31,7 +31,7 @@ a release is a tag and nothing else has to move.
 
           services.schellingboard = {
             enable = true;
-            image = "docker.io/schellingboard/schellingboard:5.0.0";
+            image = "docker.io/schellingboard/schellingboard:v5.0.0";
             environmentFile = "/run/secrets/schellingboard";
             settings.SITE_URL = "https://sessions.example.org";
           };

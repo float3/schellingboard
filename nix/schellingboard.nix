@@ -27,7 +27,7 @@ in {
     image = lib.mkOption {
       type = lib.types.str;
       default = "docker.io/schellingboard/schellingboard:latest";
-      example = "docker.io/schellingboard/schellingboard:5.0.0";
+      example = "docker.io/schellingboard/schellingboard:v5.0.0";
       description = ''
         The container image to run. Pin a release tag rather than `latest` if
         you would like to choose when the app changes under your attendees.
